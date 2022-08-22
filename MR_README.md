@@ -55,6 +55,6 @@ docker compose up
 #### Yarn
 
 ```bash
-yarn && yarn dev
+yarn && yarn start
 ```
 
