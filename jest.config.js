@@ -17,11 +17,6 @@ module.exports = {
   moduleFileExtensions: ['js', 'json', 'ts', 'tsx', 'node'],
   coverageDirectory: 'coverage',
   coverageReporters: ['json-summary', 'text', 'html', 'lcov'],
-  collectCoverageFrom: [
-    'src/**/*.{ts,tsx}',
-    '!**/node_modules/**',
-    '!**/vendor/**',
-    '!**/src/**/**/*{types}.ts',
-  ],
+  collectCoverageFrom: ['src/**/*.{ts,tsx}'],
   testPathIgnorePatterns: ['/public/', '/.vscode/', '/.build/', '/node_modules/'],
 };
